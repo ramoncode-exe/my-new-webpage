@@ -6,10 +6,10 @@ export default function Header() {
     return (
         <nav className="text-[#272727] flex justify-evenly p-3 items-center font-inter text-[12px] text-center border-b border-[#dadada]">
             <div>
-                <h1 className="text-[22px] font-bold bg-gradient-to-l from-[#702c47] via-[#b00b4d] to-[#f60264] text-transparent bg-clip-text">ramon.dev</h1>
+                <h1 className="text-[24px] font-bold bg-gradient-to-l from-[#702c47] via-[#b00b4d] to-[#f60264] text-transparent bg-clip-text">ramon.dev</h1>
             </div>
             <div className="max-md:hidden">
-                <ul className="flex gap-3 items-center">
+                <ul className="flex gap-3 items-center text-[14px]">
                     <li className="hover:text-[#781d42]">About</li>
                     <li className="hover:text-[#781d42]">Skills</li>
                     <li className="hover:text-[#781d42]">Experiences</li>
