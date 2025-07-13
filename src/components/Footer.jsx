@@ -2,7 +2,7 @@ import { Github, Linkedin } from 'lucide-react';
 
 export default function Footer() {
     return (
-        <footer className='border-t border-[#dadada] font-inter'>
+        <footer className='border-t border-[#dadada] font-inter text-[#272727]'>
             <div className="flex justify-evenly p-6 max-lg:flex-col max-lg:items-center max-lg:gap-6 max-lg:text-center">
                 <div>
                     <h2 className="text-[18px] font-bold bg-gradient-to-l from-[#702c47] via-[#b00b4d] to-[#f60264] text-transparent bg-clip-text">
@@ -49,7 +49,7 @@ export default function Footer() {
 
                 <div>
                     <h2 className='text-[18px] font-bold bg-gradient-to-l from-[#702c47] via-[#b00b4d] to-[#f60264] text-transparent bg-clip-text'>
-                        Stack
+                        I used:
                     </h2>
                     <ul className="text-[14px] mt-3 space-y-1">
                         <li>React</li>
