@@ -33,15 +33,15 @@ export default function Information() {
                     <img className='max-w-[400px]' src={AboutImg} alt="About Me Img" />
                 </div>
             </div>
-            <div className='flex mt-5 items-center gap-3 flex-wrap justify-center max-w-[900px] mx-auto'>
-                <img className='max-w-[90px]' src={LogoHtml} alt="logo html" />
-                <img className='max-w-[90px]' src={LogoCss} alt="logo css" />
-                <img className='max-w-[90px]' src={LogoJs} alt="logo js" />
-                <img className='max-w-[90px]' src={LogoReact} alt="logo react" />
-                <img className='max-w-[90px]' src={LogoTailwind} alt="logo tailwind" />
-                <img className='max-w-[90px]' src={LogoGit} alt="logo git" />
-                <img className='max-w-[90px]' src={LogoFigma} alt="logo figma" />
-                <img className='max-w-[90px]' src={LogoUx} alt="logo ux" />
+            <div className='flex mt-5 items-center gap-3 flex-wrap justify-center max-w-[1280px] mx-auto'>
+                <img className='max-w-[110px]' src={LogoHtml} alt="logo html" />
+                <img className='max-w-[110px]' src={LogoCss} alt="logo css" />
+                <img className='max-w-[110px]' src={LogoJs} alt="logo js" />
+                <img className='max-w-[110px]' src={LogoReact} alt="logo react" />
+                <img className='max-w-[110px]' src={LogoTailwind} alt="logo tailwind" />
+                <img className='max-w-[110px]' src={LogoGit} alt="logo git" />
+                <img className='max-w-[110px]' src={LogoFigma} alt="logo figma" />
+                <img className='max-w-[110px]' src={LogoUx} alt="logo ux" />
             </div>
         </main >
     )
