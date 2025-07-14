@@ -34,10 +34,10 @@ export default function Information() {
                     <img className='max-w-[400px]' src={AboutImg} alt="About Me Img" />
                 </div>
             </div>
-            <div className="overflow-hidden w-full mt-5">
+            <div className="flex overflow-hidden w-full mt-5">
                 <div id='skills' className="flex animate-scroll gap-5 w-max">
                     {[...logos, ...logos].map((logo, i) => (
-                        <img key={i} className="max-w-[150px]" src={logo} alt={`logo-${i}`} />
+                        <img key={i} className="max-w-[150px] max-md:max-w-[110px]" src={logo} alt={`logo-${i}`} />
                     ))}
                 </div>
             </div>
