@@ -7,7 +7,7 @@ export default function Projects() {
     return (
         <main className="font-inter p-3 text-[#272727]">
             <div>
-                <div className="border border-[#dadada] bg-gradient-to-tr from-[#efefef] to-[#f6026420] rounded-md p-3 mt-[16px] max-w-[900px] mx-auto flex max-sm:flex-wrap gap-3 shadow-sm shadow-[#f6026470]">
+                <div id="projects" className="border border-[#dadada] bg-gradient-to-tr from-[#efefef] to-[#f6026420] rounded-md p-3 mt-[16px] max-w-[900px] mx-auto flex max-sm:flex-wrap gap-3 shadow-sm shadow-[#f6026470]">
                     <div className="border border-[#dadada] rounded-md p-3 w-full">
                         <img src={AzureLogo} alt="Azure logo" className="mb-3" />
                         <div className="mb-4">

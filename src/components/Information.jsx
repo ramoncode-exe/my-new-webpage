@@ -9,8 +9,21 @@ import LogoFigma from '../assets/assets-skills/figma.svg';
 import LogoUx from '../assets/assets-skills/ux.svg';
 
 export default function Information() {
+    const logos = [
+        LogoHtml,
+        LogoCss,
+        LogoJs,
+        LogoReact,
+        LogoTailwind,
+        LogoGit,
+        LogoFigma,
+        LogoUx,
+    ];
+
     return (
-        <main className="font-inter p-3 mb-[16px]">
+
+
+        <main id='about' className="font-inter p-3 mb-[16px]">
             <div className=" items-center justify-around border border-[#dadada] bg-gradient-to-br from-[#efefef] to-[#f6026420] rounded-md p-3 mt-[16px] max-w-[900px] mx-auto flex max-sm:flex-wrap gap-3 shadow-sm shadow-[#f6026470]">
                 <div>
                     <h1 className="font-semibold bg-gradient-to-l from-[#702c47] via-[#b00b4d] to-[#f60264] text-transparent bg-clip-text text-[20px]">About Me</h1>
@@ -21,16 +34,14 @@ export default function Information() {
                     <img className='max-w-[400px]' src={AboutImg} alt="About Me Img" />
                 </div>
             </div>
-            <div className='flex mt-5 items-center gap-3 flex-wrap justify-center max-w-[1280px] mx-auto'>
-                <img className='max-w-[110px]' src={LogoHtml} alt="logo html" />
-                <img className='max-w-[110px]' src={LogoCss} alt="logo css" />
-                <img className='max-w-[110px]' src={LogoJs} alt="logo js" />
-                <img className='max-w-[110px]' src={LogoReact} alt="logo react" />
-                <img className='max-w-[110px]' src={LogoTailwind} alt="logo tailwind" />
-                <img className='max-w-[110px]' src={LogoGit} alt="logo git" />
-                <img className='max-w-[110px]' src={LogoFigma} alt="logo figma" />
-                <img className='max-w-[110px]' src={LogoUx} alt="logo ux" />
+            <div className="overflow-hidden w-full mt-5">
+                <div id='skills' className="flex animate-scroll gap-5 w-max">
+                    {[...logos, ...logos].map((logo, i) => (
+                        <img key={i} className="max-w-[150px]" src={logo} alt={`logo-${i}`} />
+                    ))}
+                </div>
             </div>
+
         </main >
     )
 }

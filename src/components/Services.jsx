@@ -3,7 +3,7 @@ import { Laptop, Brush, BrainCircuit } from 'lucide-react';
 export default function Services() {
     return (
         <main className="font-inter bg-[#702c47] text-[#fff] p-3 mt-[16px] mb-[16px]">
-            <div className="mx-auto flex flex-col items-center max-w-[1280px] p-3 mt-5 max-lg:flex-wrap gap-3 max-lg:justify-center">
+            <div id='services' className="mx-auto flex flex-col items-center max-w-[1280px] p-3 mt-5 max-lg:flex-wrap gap-3 max-lg:justify-center">
                 <div className="max-w-[800px] text-center items-center mx-auto">
                     <h1 className="text-[26px] mb-3 font-bold text-[#fff]">What can I do for you?</h1>
                     <p className="text-[16px] mb-3">I leverage my experience in technology to create digital strategies and experiences that accelerate growth, expand customer bases, and raise service excellence.</p>

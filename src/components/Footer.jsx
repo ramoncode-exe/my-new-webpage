@@ -17,11 +17,19 @@ export default function Footer() {
                     <h2 className="text-[18px] font-bold bg-gradient-to-l from-[#702c47] via-[#b00b4d] to-[#f60264] text-transparent bg-clip-text">
                         Links
                     </h2>
-                    <ul className="text-[14px] mt-3 space-y-1">
-                        <li className="hover:text-[#781d42] cursor-pointer">About</li>
-                        <li className="hover:text-[#781d42] cursor-pointer">Skills</li>
-                        <li className="hover:text-[#781d42] cursor-pointer">Experiences</li>
-                        <li className="hover:text-[#781d42] cursor-pointer">Services</li>
+                    <ul className="gap-5 text-[14px]">
+                        <li>
+                            <a href="#about" className="hover:text-[#781d42] transition-colors">About</a>
+                        </li>
+                        <li>
+                            <a href="#skills" className="hover:text-[#781d42] transition-colors">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#projects" className="hover:text-[#781d42] transition-colors">Experiences</a>
+                        </li>
+                        <li>
+                            <a href="#services" className="hover:text-[#781d42] transition-colors">Services</a>
+                        </li>
                     </ul>
                 </div>
 
