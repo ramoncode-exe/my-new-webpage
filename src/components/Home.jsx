@@ -13,7 +13,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="max-lg:w-auto">
-                <img src={HomeBg} alt="Home Image" className="max-w-[500px]" />
+                <img src={HomeBg} alt="Home Image" className="max-w-[500px] max-md-[400px]" />
             </div>
         </main>
     )
