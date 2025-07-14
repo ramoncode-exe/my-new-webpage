@@ -14,20 +14,8 @@ export default function Information() {
             <div className=" items-center justify-around border border-[#dadada] bg-gradient-to-br from-[#efefef] to-[#f6026420] rounded-md p-3 mt-[16px] max-w-[900px] mx-auto flex max-sm:flex-wrap gap-3 shadow-sm shadow-[#f6026470]">
                 <div>
                     <h1 className="font-semibold bg-gradient-to-l from-[#702c47] via-[#b00b4d] to-[#f60264] text-transparent bg-clip-text text-[20px]">About Me</h1>
-                    <p className="max-w-[400px]">I'm a front-end developer passionate about building modern, accessible, and responsive interfaces. I work with React, Tailwind CSS, and a strong focus on UX/UI to turn ideas into clean digital experiences.</p>
-                    {/*
-                    
-                    <ul className="mt-3 gap-3 flex flex-wrap">
-                        <li className="bg-[#f60264] p-1 rounded-md text-[#fff]">React</li>
-                        <li className="bg-[#f60264] p-1 rounded-md text-[#fff]">Tailwind CSS</li>
-                        <li className="bg-[#f60264] p-1 rounded-md text-[#fff]">JavaScript</li>
-                        <li className="bg-[#f60264] p-1 rounded-md text-[#fff]">UX/UI Design</li>
-                        <li className="bg-[#f60264] p-1 rounded-md text-[#fff]">Responsive Design</li>
-                        <li className="bg-[#f60264] p-1 rounded-md text-[#fff]">Version Control (Git)</li>
-                        <li className="bg-[#f60264] p-1 rounded-md text-[#fff]">HTML and CSS</li>
-                    </ul> 
-
-                    */}
+                    <p className="max-w-[400px] mt-3">I'm a front-end developer with 2 years of experience, specialized in React, Tailwind CSS, and UX/UI practices. I'm passionate about building modern, accessible, and responsive interfaces, with a strong focus on performance, usability, and visual detail. <br />
+                        <br />Throughout my journey, I’ve aimed to create unique and innovative projects that combine technology and design to deliver functional and memorable digital experiences. I'm constantly evolving, exploring new tools and approaches to craft creative and efficient solutions.</p>
                 </div>
                 <div>
                     <img className='max-w-[400px]' src={AboutImg} alt="About Me Img" />
